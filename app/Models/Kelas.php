@@ -32,8 +32,8 @@ class Kelas extends Model
     }
 
  
-public function guruMapel()
+public function guruMapel(): HasMany
 {
-    return $this->hasMany(guruMapel::class);
+    return $this->hasMany(GuruMapel::class);
 }
 }

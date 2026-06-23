@@ -48,16 +48,7 @@
                 Kelola kehadiran siswa dengan mudah
             </p>
 
-            <div class="flex gap-4 justify-center mt-8">
-                <div
-                    class="bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 text-white text-sm font-medium shadow-sm">
-                    <i class="ri-group-line mr-1"></i>847 Siswa
-                </div>
-                <div
-                    class="bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 text-white text-sm font-medium shadow-sm">
-                    <i class="ri-building-line mr-1"></i>24 Kelas
-                </div>
-            </div>
+
         </div>
     </div>
 

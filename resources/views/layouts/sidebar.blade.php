@@ -82,7 +82,15 @@
                                     <span class="text-sm">Data Guru</span>
                                 </a>
                             </li>
-
+                            <li>
+                                <a href="{{ route('admin.admin.index') }}" wire:navigate
+                                    class="group flex items-center gap-3 px-4 py-2.5 rounded-lg transition-all duration-300 {{ request()->routeIs('admin.admin.index') ? 'text-sky-600 font-semibold bg-sky-50/80' : 'text-gray-500 hover:text-sky-600 hover:bg-sky-50/50 hover:translate-x-1' }}">
+                                    <div
+                                        class="w-1.5 h-1.5 rounded-full transition-transform duration-300 group-hover:scale-150 {{ request()->routeIs('admin.admin.index') ? 'bg-sky-500' : 'bg-gray-300 group-hover:bg-sky-400' }}">
+                                    </div>
+                                    <span class="text-sm">Data Admin</span>
+                                </a>
+                            </li>
                         </ul>
                     </li>
 
